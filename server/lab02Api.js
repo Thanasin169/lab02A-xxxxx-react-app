@@ -21,10 +21,10 @@ app.listen(port, ()=>{
 });
 
 async function addHerb(_____){
-    const hbRef = db.collection('Herbs').doc();
-    const docRef = db.collection('Herbs').doc(hbRef.id);
+    const hbRef = db.collection('_____').doc();
+    const docRef = db.collection('_____').doc(_____);
     let tmpObj = { ...tmpHbData, hbId: hbRef.id };
-    await docRef.set(tmpObj);
+    await docRef._____(tmpObj);
     console.log('Herb added.');
 }
 
